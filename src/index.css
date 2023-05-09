@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all .3s;
+}
+
+.appWrapper {
+  font-size: 20px;
+  margin-top: 60px;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+.inputWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 400px;
+  margin-right: 30px;
+  font-size: inherit;
+  padding: 10px 20px;
+  border: 1px solid #000000;
+}
+
+button {
+  font-size: inherit;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: #ff6248;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.outputWrapper {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #444444;
+  width: 200px;
+  height: 100%;
+}
+
+.card .header {
+  background: #ff6248;
+  display: block;
+  color: #444444;
+  border-bottom: 1px solid #444444;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: inherit;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.card .tasksWrapper {
+  padding: 10px;
+  height: 100%;
+  min-height: 100px;
+}
+
+.card .taskitem {
+  padding: 10px;
+  background: #dddddd;
+  color: #444444;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid #444444;
+  box-sizing: border-box;
+  cursor: move;
+}
+
+.card .taskitem:last-child {
+  margin-bottom: 0;
+}
+.dragover-bg-red{
+  background: #ffd4cd;
+}
